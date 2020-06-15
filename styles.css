@@ -116,16 +116,25 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.html{
+  background-color:#ff9904;
 }
-
+.css{
+  background-color:#00f;
+}
+.js{
+  background-color:#ff0;
+}
+.skills li:nth-child(3){
+  color:#000;
+}
+.react{
+  background-color:#00ccff;
+}
 footer {
   width: 100%;
   min-height: 30px;
@@ -169,6 +178,7 @@ a.github {
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
