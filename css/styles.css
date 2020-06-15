@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway','Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -110,6 +110,10 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.tag.name{
+  font-family:'Lato','Roboto',sans-serif;
+}
 .location {
   background-color: #222;
   color: white;
