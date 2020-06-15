@@ -2,7 +2,10 @@
 * { 
   box-sizing: border-box;
 }
-  
+html,
+body{
+  height:100%;
+}
 body {
   margin: 0;
   padding: 0;
@@ -86,7 +89,8 @@ a:hover {
 header {
   text-align: center;
   background: url('../images/background_pic_cover.jpg') no-repeat top center ;
-  background-size: cover;
+  background-size:100% 50%;
+  background-attachment:fixed;
   overflow: hidden;
   padding-top: 60px;
   line-height: 1.5;
