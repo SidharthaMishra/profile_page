@@ -42,13 +42,22 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.nav-wrapper{
+  width:80%;
+  max-width:1200px;
+  display:flex;
+  justify-content:space-between;
 }
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items:center;
   font-weight: 700;
-  list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -69,6 +78,11 @@ a:hover {
   color: white;
   border-bottom:2px solid white;
 }
+
+.logo a:hover{
+  border-bottom:2px solid transparent;
+}
+
 header {
   text-align: center;
   background: url('../images/background_pic_cover.jpg') no-repeat top center ;
@@ -193,7 +207,7 @@ a.linkedin {
   background-image: url(images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
