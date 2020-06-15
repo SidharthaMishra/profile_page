@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #000;
 }
 a:hover {
   color: #6633ff;
@@ -49,20 +49,20 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
+  color:#999;
+  border-bottom:2px solid transparent;
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+  border-bottom:2px solid white;
 }
-
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background_pic_cover.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-header {
   line-height: 1.5;
 }
 header .profile-image {
@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(2, 26, 56);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.05);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -99,7 +99,13 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #888;
+}
+.card a{
+  font-weight:bold;
+}
+.card a:hover{
+  text-decoration:underline;
 }
 
 ul.skills {
