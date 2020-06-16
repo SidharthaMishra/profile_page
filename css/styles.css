@@ -238,7 +238,6 @@ a.social:hover {
   header {
     min-height: 470px;
     background-size:100% 80%;
-    background-attachment:cover;
   }
 
   .nav {
