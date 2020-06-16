@@ -95,7 +95,7 @@ header {
   padding-top: 60px;
   line-height: 1.5;
 }
-header .profile-image {
+.profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -239,6 +239,8 @@ a.social:hover {
 
   header {
     min-height: 470px;
+    background-size:100% 80%;
+    background-attachment:cover;
   }
 
   .nav {
