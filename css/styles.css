@@ -14,6 +14,7 @@ body {
   font-family: 'Raleway','Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  
 }
 
 h1{
@@ -40,7 +41,6 @@ a:hover {
 /* Section Styles */
 
 .main-nav {
-  width: 100%;
   background: black;
   min-height: 30px;
   padding: 10px auto;
@@ -84,9 +84,10 @@ a:hover {
   border-bottom:2px solid white;
 }
 .logo img{
-    height:100px;
-    width:300px;
-   max-height:286px;
+    min-width:130px;
+    max-width:250px;
+   max-height:90px;
+
 }
 .logo a:hover{
   border-bottom:2px solid transparent;
@@ -129,7 +130,10 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-
+main{
+  text-align:center;
+  overflow:none;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
