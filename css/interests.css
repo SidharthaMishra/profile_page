@@ -1,0 +1,14 @@
+@media screen and (min-width:720px){
+    .info-wrapper div{
+        /* border:1px solid red; */
+    }
+    .info-wrapper:first-child{
+        width:20%;
+        padding:10px;
+    }
+    .personal-blurb{
+        width:80%;
+        padding:10px;
+    }
+
+}
