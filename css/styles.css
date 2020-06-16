@@ -52,7 +52,7 @@ a:hover {
   align-items:center;
 }
 .nav-wrapper{
-  width:80%;
+  width:100%;
   max-width:1200px;
   display:flex;
   justify-content:space-between;
@@ -85,10 +85,11 @@ a:hover {
   border-bottom:2px solid white;
 }
 .logo img{
-    min-width:130px;
-    max-width:250px;
-   max-height:90px;
-
+  width:100%;
+  height:auto;
+  padding-left:10px;
+  max-width:250px;
+  max-height:90px;
 }
 .logo a:hover{
   border-bottom:2px solid transparent;
