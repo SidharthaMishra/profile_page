@@ -32,6 +32,11 @@ main{
         flex-direction:row;
         justify-content:center;
     }
+
+    .info ul{
+        padding-left:25px;
+    }
+
 }
 
 @media screen and (min-width:1080px){
@@ -44,8 +49,9 @@ main{
     .profile-img-wrapper{
         width:25%;
     }
-    /* .info-wrapper{
-        display:flex;
-        flex-direction:row;
-    } */
+    .info-wrapper{
+        width:75%;
+        justify-content:space-around;
+    }
+
 }
