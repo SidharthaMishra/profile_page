@@ -16,7 +16,9 @@
     color:white;
     background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.5));
 }
-
+.profile-image{
+    border: 3px solid rgb(0,0,0);
+}
 @media screen and (min-width:720px){
     .info-wrapper:first-child{
         width:5%;
